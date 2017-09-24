@@ -169,11 +169,11 @@ border-bottom-color:violet;
 .mainlist{
 color:#6A7076;
 padding-left: 60px;
-  font-family: 'GothamMedium';
-	font-size:20px;
-    font-weight:bold;    
+font-family: 'GothamMedium';
+font-size:20px;
+font-weight:bold;    
 letter-spacing: 1px;
-  display:inline;
+display:inline;
 }
  
 /*li:not(.toplist)
@@ -228,18 +228,18 @@ hr.style1{
     background-color: #EDEEED;
     width:90%;
     margin-top:0px;
-    padding-top: 2px;
-    
+    padding-top: 0px;   
     
     
 }
 
 .footerlist1{
-     margin-left: 20px;
+     margin-left: 10px;
     padding-left: 10px;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     display: inline-block;
-    font-size:30px;
+    font-size:15px;
+    padding-bottom: 20px;
     }
 
 
@@ -248,11 +248,32 @@ hr.style1{
     font-size:30px;
     display: inline-block;
     padding-top: 0px;
-    margin-top:0px;
+    margin-top:10px;
+    
  
 }
 #footercheck{
-    padding-right: 30px;
+    padding-right: 20px;
     font-size: 15px;
 }
-
+#usflag{
+    background-image: url("flag.jpg");
+    margin-right: 1px;
+    padding: 16px;
+    padding-top: 20px;
+    margin-left: 70px;
+    background-repeat: no-repeat
+}
+.firstfooter
+{
+    display: inline-block;
+    margin-right: 0px;
+    padding-right: 0px;
+    
+    
+}
+#currency
+{
+    font-size:15px; 
+ 
+}
