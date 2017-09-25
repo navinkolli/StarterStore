@@ -28,11 +28,11 @@ a { color: inherit;
  
 #thopulist
 {
-    font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+   font-family: 'Gotham-Medium';
   font-size: 18px;
     padding-right: 50px;
     text-decoration-color: black;
-    letter-spacing: 3px;
+ 
     
     
     
@@ -335,10 +335,73 @@ height: 70px;
 
 #connect
 {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 font-size: 15pt;
-padding-left:650px;
+padding-left:0px;
 letter-spacing: 2px;
-color:#40474E
+color:#40474E;
+padding-left: 600   px;   
     
+}
+
+#twitter
+{
+    background-image: url(twit.JPG);
+    margin-right: 10px;
+    padding-top: 10px;
+    padding: 25px;
+     margin-left: 20px;
+    background-repeat: no-repeat; 
+}
+
+#facebook
+{
+    background-image: url(fb1.JPG);
+    margin-right: 10px;
+    padding-top: 10px;
+    padding: 25px;
+    
+    background-repeat: no-repeat; 
+}
+
+#pintrest
+{
+    background-image: url(pint.JPG);
+    margin-right: 10px;
+    padding-top: 10px;
+    padding: 25px;
+    
+    background-repeat: no-repeat; 
+}
+
+#rss
+{
+    background-image: url(rss.JPG);
+    margin-right: 10px;
+    padding-top: 10px;
+    padding: 25px;
+    
+    background-repeat: no-repeat; 
+}
+#mail
+{
+    background-image: url(mail.JPG);
+    margin-right: 10px;
+    padding-top: 10px;
+    padding: 25px;
+      
+    background-repeat: no-repeat; 
+}
+
+#appstore
+{ 
+    padding-top: 20px;
+}
+
+.icons
+{
+margin-top: 10px;
+padding-left: 250px;    
+    
+display: inline-block;
 }
