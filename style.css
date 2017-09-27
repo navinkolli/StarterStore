@@ -181,29 +181,40 @@ padding-top: 30px;
 {
         padding-left:70%;
 }
+ 
 
-.storelogo{
-     
-    padding-left: 70px;
-    position: relative;
-    list-style: none;
-    padding-bottom: 3%;   
+#inline2
+{
+    width: 17%;
+    display: inline;
+    float: left;
     
+}
+.panel
+{
+   display: flex;
+    justify-content:flex-start;
+    padding-bottom: 18px;
+}
+ 
+#inline1
+
+{
+    position: relative;
+    left: 7%;
+   
 }
     
     
 .cart{
 
 position: relative;
-left: 39.8%;
+left: 337%;
+padding-left:2px;
 
 }
-
-#iconsearch{
-    position: relative;
-    left: 25%;
-}
-
+ 
+ 
 .mainlist{
 color:#6A7076;
 padding-left: 100px;
@@ -227,6 +238,15 @@ margin: 4em 0;
     margin-left: 10px;
  float: left;
 }
+.platetext
+{
+ position: relative;
+left:30%;
+font-family:Arial, "Helvetica Neue", Helvetica, sans-serif;
+font-size:15pt;
+color:#6A7076;
+font-weight: bold;
+}
 .plate
 {
      position: relative;
@@ -237,11 +257,61 @@ margin: 4em 0;
     position: relative;
     float: left; 
 }
+.watchtext
+{
+position: relative;
+left: 2%;
+font-family:Arial, "Helvetica Neue", Helvetica, sans-serif;
+font-size:15pt;
+font-weight: bold;
+    color:#6A7076
+}
 .bed{
     position: relative;
     float: left;
+    
 }
-
+.bedtext
+{
+    color:#6A7076;
+ position: relative;
+left: 2%;
+font-family:Arial, "Helvetica Neue", Helvetica, sans-serif;
+font-size:15pt;
+font-weight: bold;
+    
+}
+.shopnow
+{
+    position: relative;
+    left:30%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #EF7561;
+    font-weight: bold;
+     
+    text-decoration-color: #EF7561;
+    
+}
+.bedshopnow
+{
+     
+     position: relative;
+    left:1%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #EF7561;
+     font-weight: bold;
+    text-decoration-color: #EF7561;
+}
+ .watchshopnow
+{
+    
+     position: relative;
+    left:1%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #EF7561;
+    padding-top: 10px;
+    font-weight: bold;
+}
 #bed{
  
     width: 400px;
@@ -258,6 +328,7 @@ margin: 4em 0;
     margin-left: 11em;
     margin-right: 5px;
     border-bottom: 8px solid #9CCF4B;
+    
 }
 
 #watch{
@@ -469,14 +540,16 @@ font-size: 18px;
 
 }
 input:focus{
-  outline: 0px;
+  outline: 10px;
 }
 .input-placeholder{ 
-display: inline-block;
-padding: 10px;
+ padding: 10px;
 border: 1px solid #aaa;
 position: relative;
-left:40%;     
+left: 40%;
+height: 20%;
+
+
 }
 .input-placeholder1{ 
 display: inline-block;
