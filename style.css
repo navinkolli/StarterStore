@@ -150,7 +150,7 @@ font-weight: bold;
 }
 .fb
 {
-background-image: url(fb.jpg);
+background-image: url(fb.JPG);
     margin-right: 10px;
     padding: 16px;
     padding-top: 10px;
@@ -161,7 +161,14 @@ background-image: url(fb.jpg);
     color: #EF7561;
     font-size: 14px;
 }
-
+.fa-search { 
+  position: absolute;
+  left: 90%;
+  top:50%;
+  transform: translateY(-50%);
+  font-size: 10em;
+ 
+}
  
  
   
@@ -342,9 +349,9 @@ font-weight: bold;
 hr.style1{
  
     border: 0;
-    height: 1px;
+    height: 0.2px;
     background: #333;
-    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    background-image: linear-gradient(to right, #D5d8D5, #D5d8D5, #D5d8D5);
     width: 80%;
 }
 .footer{
@@ -547,6 +554,7 @@ input:focus{
 border: 1px solid #aaa;
 position: relative;
 left: 40%;
+ 
 height: 20%;
 
 
