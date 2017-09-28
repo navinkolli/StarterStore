@@ -424,23 +424,40 @@
 
     }
     .stayconnect{
+        
+        padding-bottom: 2%;
+        display: inline-block;
 
-
+          
     }
+.iconsnbuttons
+{
+    
+  
+
+     
+    padding-bottom: 2%;
+
+}
+.inline4
+{
+    display: inline;
+    position: relative;
+    left: 20%;
    
+}
+ 
     #texbox{
         padding-left: 132px;
 
     }
-    #subscribe{
-        padding-left:0px;
-        margin-left: 0px;
-    }
+    
     #stay
     {
     font-family: 'Proxima Nova', Georgia, sans-serif;
     font-size: 15pt;
-    padding-left:130px;
+    position: relative;
+    left: 10%;
     letter-spacing: 2px;
     color:#40474E;
 
@@ -453,8 +470,9 @@
     height: 67px;
         font-size:19px;
         width:150px;
-        position: relative;
-        left: 45%;
+    position: relative;
+    left: 10%;
+     
        padding-bottom: 10px;
     }
     .tbox
@@ -471,10 +489,12 @@
     {
     font-family: 'Proxima Nova', Georgia, sans-serif;
     font-size: 15pt;
-     position: relative;
     letter-spacing: 2px;
     color:#40474E;
-    left: 30%; 
+position: relative;
+    left: 90%;
+    padding-left: 150px;
+    
 
     }
 
@@ -577,22 +597,30 @@
     border: 1px solid #aaa;
     position: relative;
     left:10%;
+    
     height:40px;
     float: left;
     padding-bottom: 20px;
-
-
-    }
-    .danger
-    {
-
-        padding-bottom: 40px;
-
+    width: 20%;
+     text-align: justify;
 
     }
+    .onlyicons
+{
+    display: inline-block;  
+}
     .allicons{
-        position: relative;
-        left: 30%;
-        float: left;
+    position: relative;
+    left: 60%;
+     
+    
+    
     }
+.icons
+{
+    display: inline-block;
+    position: relative;
+    left: 1%;
+}
 
+ 
