@@ -152,16 +152,11 @@
         position:relative;
         float: left;
         left: 50%;
-        padding-top: 28px;
-         
+        padding-top: 28px;      
       
 
 
     }
-.chn{
-    display: inline-block;
-    
-}
     .signout
     {
         color: #EF7561;
