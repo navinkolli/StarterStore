@@ -85,12 +85,12 @@ font-weight: bold;
 {
   display:inline-block;
 position: relative;
- left: 50%;
+ left: 70%;
 }
 .fbnmore
 {
     display: inline-block;
-     
+    position: absolute;
     left: 70%;
  
 }
@@ -389,6 +389,7 @@ hr.style1{
 .footerlist1{
      margin-left: 30px;
     padding-left: 10px;
+    
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     display: inline-block;
     font-size:15px;
@@ -432,11 +433,8 @@ hr.style1{
  
 }
 .stayconnect{
-    display: inline;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-bottom: 30px;   
-        
+     
+   
 }
 #email
 {
@@ -456,7 +454,8 @@ font-family: 'Proxima Nova', Georgia, sans-serif;
 font-size: 15pt;
 padding-left:130px;
 letter-spacing: 2px;
-color:#40474E 
+color:#40474E;
+
 }
 .button
 {
@@ -490,12 +489,7 @@ color:#40474E;
 left: 30%; 
     
 }
-.allicon{
-    position:relative;
-    left: 
-     
-    
-}
+ 
 
 #twitter
 {
@@ -547,10 +541,21 @@ left: 30%;
 }
 
 #appstore
-{ 
-    padding-top: 20px;
+{
+   background-image: url(app.JPG);
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-left: 250px;
+    padding-bottom: 35px;
+      
+    background-repeat: no-repeat;   
 }
-
+ .appi
+{
+    position: absolute;
+    bottom: -26px;
+    
+}
  
 
 
@@ -580,29 +585,27 @@ height: 20%;
 
 }
 .input-placeholder1{ 
-display: inline-block;
-padding: 10px;
+padding: 7px;
 border: 1px solid #aaa;
 position: relative;
-left:27%;
-height:51px;
+left:10%;
+height:40px;
 float: left;
+padding-bottom: 20px;
+
+ 
 }
-.barnbutton
+.danger
 {
-    display: inline-block;
+ 
+    padding-bottom: 40px;
+    
         
 }
-#serachfinal
-
-{
-position: relative;
- height: 10px;
-    
-}
-.icons
-{
+.allicons{
     position: relative;
-     left: 100%;
-     
+    left: 30%;
+    float: left;
 }
+ 
+ 
