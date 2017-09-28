@@ -77,23 +77,41 @@ font-weight: bold;
     display: inline-block;
 }
  
-
+.changebold
+{
+  display: inline-block;
+}
+.manhead
+{
+  display:inline-block;
+position: relative;
+ left: 50%;
+}
+.fbnmore
+{
+    display: inline-block;
+     
+    left: 70%;
+ 
+}
 .topheadli {
      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     padding-right: 15px;
     font-size:14px;
     border-right: 1px solid #D5D8D5;
+    font-weight: normal;
 }
 .topheadlast
 {
      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
         font-size:14px;
+    font-weight: normal;    
 }
 
 .secondlist {
      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     padding: 0px;
-    display: inline-block;
+     
     padding-right: 20px;
     font-size:14px;
 }
@@ -130,7 +148,11 @@ font-weight: bold;
 {
      color: #EF7561;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-        font-size:14px;
+    font-size:14px;
+    position:relative;
+    left: 0.4;
+    
+    
 }
 .signout
 {
@@ -410,7 +432,7 @@ hr.style1{
  
 }
 .stayconnect{
-     float: left;
+    display: inline;
     padding-left: 0px;
     padding-right: 0px;
     padding-bottom: 30px;   
@@ -465,9 +487,7 @@ font-size: 15pt;
  position: relative;
 letter-spacing: 2px;
 color:#40474E;
-left: 80%;
-
- 
+left: 30%; 
     
 }
 .allicon{
@@ -555,7 +575,6 @@ input:focus{
 border: 1px solid #aaa;
 position: relative;
 left: 40%;
- 
 height: 20%;
 
 
@@ -567,6 +586,12 @@ border: 1px solid #aaa;
 position: relative;
 left:27%;
 height:51px;
+float: left;
+}
+.barnbutton
+{
+    display: inline-block;
+        
 }
 #serachfinal
 
@@ -578,5 +603,6 @@ position: relative;
 .icons
 {
     position: relative;
-    left: 120%;
+     left: 100%;
+     
 }
