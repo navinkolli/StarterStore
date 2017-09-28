@@ -13,10 +13,12 @@
 
     .header {
         display: inline-block;
-        padding-bottom: 10px;
-        margin-left: 120px;
+        padding-bottom: 1px;
+        margin-left: 140px;
+        padding-left: 1px;
         background-color: #EDEEED;
-        width: 85%;
+        width: 78%;
+        
 
     }
 
@@ -77,10 +79,7 @@
         display: inline-block;
     }
 
-    .changebold
-    {
-      display: inline-block;
-    }
+   
     .manhead
     {
       display:inline-block;
@@ -100,6 +99,7 @@
         font-size:14px;
         border-right: 1px solid #D5D8D5;
         font-weight: normal;
+        
     }
     .topheadlast
     {
@@ -150,18 +150,29 @@
         font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
         font-size:14px;
         position:relative;
-        left: 0.4;
+        float: left;
+        left: 50%;
+        padding-top: 28px;
+         
+      
 
 
     }
+.chn{
+    display: inline-block;
+    
+}
     .signout
     {
         color: #EF7561;
         font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
         font-size:14px;
         padding-left: 0px;
-        padding-top: 120px;
-
+ 
+ position:relative;
+         float: left;
+        left:69.4%;
+        padding-top:25px;
     }
     .man
     {
@@ -492,7 +503,7 @@
     letter-spacing: 2px;
     color:#40474E;
 position: relative;
-    left: 90%;
+    left: 87%;
     padding-left: 150px;
     
 
